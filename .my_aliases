@@ -1,0 +1,20 @@
+alias vim='nvim'
+
+alias zshconfig="$EDITOR ~/.zshrc"
+
+alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
+
+alias lg='lazygit'
+
+alias frp_on='nohup /home/weiensong/Apps/frp_0.61.0_linux_amd64/frpc -c /home/weiensong/Apps/frp_0.61.0_linux_amd64/frpc.ini > /home/weiensong/Apps/frp_0.61.0_linux_amd64/frpc.log 2>&1 &'
+
+alias ubuntu='ssh -o ServerAliveInterval=30 ubuntu@$UBUNTU_IP'
+
+alias ra='ranger'
+
+alias yz='yazi'
+
+alias ls='lsd'
+
+alias tlst='f() { tail -f -n ${1:-300} "$(ls -t | head -n1)"; unset -f f; }; f'
+
