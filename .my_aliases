@@ -12,7 +12,7 @@ alias ubuntu='ssh -o ServerAliveInterval=30 ubuntu@$UBUNTU_IP'
 
 alias ra='ranger'
 
-alias yz='yazi'
+alias sa='yazi'
 
 alias ls='lsd'
 
